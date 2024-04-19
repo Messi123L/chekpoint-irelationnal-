@@ -1,0 +1,20 @@
++----------------+      +---------------------+      +--------------+
+|   Gymnasium    |      |       Member        |      |    Session   |
++----------------+      +---------------------+      +--------------+
+| GymnasiumID (PK)|     |     MemberID (PK)   |      | SessionID (PK)|
+|     Name       |      |       LastName      |      |   SportType   |
+|    Address     |      |       FirstName     |      |   Schedule    |
+|   Telephone    |      |       Address       |      +--------------+
++----------------+      |     DateOfBirth     |      
+                        |        Gender       |      
+                        +---------------------+      
+
++-----------------+
+|     Coach       |
++-----------------+
+|  CoachID (PK)   |
+|    LastName     |
+|   FirstName     |
+|      Age        |
+|    Specialty    |
++-----------------+
